@@ -54,3 +54,14 @@ console.log(x1 == z1);
 // Complex Data
 // 1 function
 // 2 object
+
+// Function 
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+console.log(myFunction(3,4));
+
+function toCelsius(f) {
+    return (5/9) * (f-32);
+}
+console.log(toCelsius(77));
