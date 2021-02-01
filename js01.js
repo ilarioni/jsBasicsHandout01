@@ -82,3 +82,11 @@ var person1 = {
     }
 }
 console.log(person1.fullName());
+
+// HTML Events
+// 1 onchange 
+// 2 onclick
+// 3 onmouseover 
+// 4 onmouseout
+// 5 onkeydown
+// 6 onload
