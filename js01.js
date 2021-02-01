@@ -65,3 +65,20 @@ function toCelsius(f) {
     return (5/9) * (f-32);
 }
 console.log(toCelsius(77));
+
+// Accessing Object
+var car = {type: "Fiat", model: "500", color: "White"};
+console.log(car.type);
+
+var fruits = ["Banana", "Orange", "Apple", "Avocado", "Mango"];
+console.log(fruits[3]);
+
+var person1 = { 
+    firstName: "John", 
+    lastName: "Doe", 
+    age: 55, 
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
+console.log(person1.fullName());
