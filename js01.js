@@ -39,3 +39,18 @@ console.log(typeof lastName);
 console.log(typeof salary);
 console.log(typeof obj1);
 
+var x1 = 5;
+var y1 = 5;
+var z1 = 6;
+console.log(x1 == y1);
+console.log(x1 == z1);
+
+// Primitive Data
+// 1 string
+// 2 number
+// 3 boolean
+// 4 undefined
+
+// Complex Data
+// 1 function
+// 2 object
