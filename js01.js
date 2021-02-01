@@ -27,3 +27,15 @@ console.log(bbb + " " + bbbb);
 var txt1 = "what a very ";
 txt1 += "nice day";
 console.log(txt1);
+
+//Data Types
+var length = 16;                                //Number
+var lastName = "Johnson";                       //String
+var salary = [2000,2200,2400,2100];             //Array Object
+var obj1 = {firstName:"John", lastName:"Doe"};  //Object
+
+console.log(typeof length);
+console.log(typeof lastName);
+console.log(typeof salary);
+console.log(typeof obj1);
+
